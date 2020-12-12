@@ -111,7 +111,7 @@ static const rtosc::Ports localPorts = {
             rPresetAtMulti(true, ad_global_amp, ad_global_filter, ad_voice_amp,
                                  ad_voice_fm_amp),
             rDefault(false),
-            "Force Envelope to fully evaluate"),
+            "Forced release"),
     rToggle(Plinearenvelope, rShort("lin/log"), rDefault(false),
             "Linear or Logarithmic Envelopes"),
     rToggle(Prepeating, rShort("repeat"), rDefault(false),
